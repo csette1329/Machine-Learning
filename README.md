@@ -10,10 +10,26 @@ This model is simple but yet had a decent accuracy for predicting movies IMDB ra
 
 
 
-### Preview
+#### Preview
 ![image](https://github.com/user-attachments/assets/d97266d4-2b5a-4617-8565-ad2894b1d0fe)
 
 
+## [Project 2] Exploring a non-supervised dataset (speech)
+
+#### Preview
+- Principal Component analysis
+  
+![image](https://github.com/user-attachments/assets/17691ee9-23dc-456d-9c9b-dd387f078e25)
+
+
+- UMAP Analysis
+  
+![image](https://github.com/user-attachments/assets/6eac42a2-051b-495f-ab70-4ec1e3e50971)
+
+
+- K-means elbow curve
+
+![image](https://github.com/user-attachments/assets/0ebb7b2c-13a2-44a8-9af1-561ff798d788)
 
 
 
