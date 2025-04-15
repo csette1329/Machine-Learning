@@ -1,21 +1,3 @@
----
-title:  INF0613 -- Aprendizado de Máquina Não Supervisionado
-output: pdf_document
-subtitle: Trabalho 2 - Redução de Dimensionalidade e Técnicas de Agrupamento
-author: 
-  - Nome completo Integrante 1
-  - Nome completo Integrante 2
----
-
-<!-- !!!!! Atenção !!!!! -->
-
-```{=html}
-<!-- Antes de fazer qualquer alteração neste arquivo, reabra-o com 
-o encoding correto: 
-File > Reopen with encoding > UTF-8
--->
-```
-
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE, error = FALSE, message = FALSE, warning = FALSE, tidy = FALSE)
 options(digits = 3)
@@ -383,54 +365,6 @@ d)  *Escolha do* $K$: Avalie os gráficos gerados nos itens anteriores e escolha
 ## Análise
 
 e)  Faça um breve resumo dos resultados, indicando a escolha do $K$ e a análise do gráfico de dispersão.
-
-**Resposta:** <!-- Escreva sua resposta abaixo -->
-
-<!-- Fim da resposta -->
-
-# Atividade 5 -- Agrupamento com o *DBscan* (*2,0 pts*)
-
-Com a melhor configuração encontrada na atividade 2, aplique a redução de dimensionalidade para que a variância acumulada seja pelo menos 80% do total. Depois, você deverá agrupar os dados com o algoritmo *DBscan*. Para isso será necessário experimentar com diferentes valores de *eps* e *minPts*.
-
-**Implementações:**
-
-a)  Aplique a redução de dimensionalidade com a melhor configuração encontrada nas atividades 1 e 2 para que a variância acumulada seja pelo menos 80% do total.
-
-```{r atv5a-code}
-# Aplicando a redução de dimensionalidade no conjunto de dados original
-
-```
-
-b)  *Ajuste de Parâmetros:* Experimente com valores diferentes para os parâmetros *eps* e *minPts*. Verifique o impacto dos diferentes valores nos agrupamentos.
-
-```{r atv5b-code}
-# Experimento com valores de eps e minPts
-
-# Experimento com valores de eps e minPts
-
-# Experimento com valores de eps e minPts
-
-```
-
-c)  *Determinando Ruídos:* Escolha o valor de *minPts* que obteve o melhor resultado no item anterior e use a função `kNNdistplot` do pacote `dbscan` para determinar o melhor valor de *eps* para esse valor de *minPts*. Lembre-se que o objetivo não é remover todos os ruídos.
-
-```{r atv5c-code}
-# Encontrando o melhor eps com o kNNdistplot
-
-```
-
-d)  *Visualizando os Grupos:* Após a escolha dos parâmetros *eps* e *minPts*, utilize o rótulo obtido para cada amostra, indicando o grupo ao qual ela pertence, para gerar um gráfico de dispersão (atribuindo cores diferentes para cada grupo).
-
-```{r atv5d-code}
-# Aplicando o DBscan com os parâmetros escolhidos
-
-# Construindo um gráfico de dispersão
-
-```
-
-## Análise
-
-e)  Faça um breve resumo dos resultados, indicando a escolha dos parâmetros *eps* e *minPts* e a análise do gráfico de dispersão.
 
 **Resposta:** <!-- Escreva sua resposta abaixo -->
 
